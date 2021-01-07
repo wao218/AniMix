@@ -1,0 +1,16 @@
+
+query AnimeList {
+  Page (perPage:50) {
+    media (type:ANIME){
+    id
+    title {
+      romaji
+      english
+      native
+      userPreferred
+    }
+    type
+    
+  }
+  }
+}
